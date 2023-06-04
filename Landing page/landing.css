@@ -1,0 +1,18 @@
+body{
+    background-color: #27374D;
+    color: #DDE6ED;
+}
+h2{
+  text-align: center;
+  letter-spacing: 2px;
+}
+p{
+  font-size: large;
+  text-align: justify;
+}
+.fooldalkep{
+  box-shadow: 10px 10px 7px black;
+}
+.navbar{
+  background-color: #9DB2BF;
+}
