@@ -9,6 +9,12 @@ h2{
 p{
   font-size: large;
   text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+}
+hr{
+  width: 70%;
+  border: 3px solid #DDE6ED;
+  border-radius: 3px;
 }
 .fooldalkep{
   box-shadow: 10px 10px 7px black;
