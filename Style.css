@@ -16,6 +16,11 @@ hr{
   border: 3px solid #DDE6ED;
   border-radius: 3px;
 }
+li{
+    font-size: large;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
 .fooldalkep{
   box-shadow: 10px 10px 7px black;
 }
