@@ -41,3 +41,5 @@ nextButton.addEventListener('click', function() {
     nextcard();
     definition.style.display = 'none';
 });
+
+
