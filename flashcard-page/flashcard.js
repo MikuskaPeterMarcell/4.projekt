@@ -28,15 +28,16 @@ words = {
 data = Object.entries(words)
 
 function nextcard() {
-    randomTerm = data[Math.floor(Math.random() = data.lenght)]
-    term.innerHTML = <h3>${randomTerm[0]}</h3>;
-    definition.innerHTML = <h3>${randomTerm[1]}</h3>;
+    randomTerm = data[Math.floor(Math.random() * data.length)];
+    term.innerHTML = `<h3>${randomTerm[0]}</h3>`;
+    definition.innerHTML = `<h3>${randomTerm[1]}</h3>`;
 }
 
 checkButton.addEventListener('click', function() {
-    definition.stlye.dispaly = 'block';
+    definition.style.display = 'block';
 });
 
 nextButton.addEventListener('click', function() {
     nextcard();
+    definition.style.display = 'none';
 });

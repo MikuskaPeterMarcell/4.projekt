@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="flashcard-style.css">
     <title>Flashcard</title>
 </head>
-<body>
+<body onload="nextcard()">
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand ms-3" href="#">Fedesz Tanúlókártya</a>
@@ -33,19 +33,19 @@
     </nav>
     <div class="container jatek">
 
-        <div class="row mb-5 p-2 mt-2 align-items-center szov side-1">
-            <p class="text-center vastag" id="side-0-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et ante eget nulla iaculis vestibulum. Duis nec vulputate lorem. Proin </p>
+        <div class="row mb-5 p-2 mt-2 align-items-center szov side-0">
+            <h3 class="text-center vastag side-0-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et ante eget nulla iaculis vestibulum. Duis nec vulputate lorem. Proin </h3>
         </div>
-        <div class="row mb-5 p-2 mt-2 align-items-center szov side-2 d-none">
-          <p class="text-center vastag" id="side-1-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et ante eget nulla iaculis vestibulum. Duis nec vulputate lorem. Proin </p>
+        <div class="row mb-5 p-2 mt-2 align-items-center szov side-1">
+          <h3 class="text-center vastag side-1-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et ante eget nulla iaculis vestibulum. Duis nec vulputate lorem. Proin </h3>
       </div>
         <div class="row mt-5 pb-4">
             <div class="col-6 text-center">
-                <button class="btn btn-secondary">
+                <button class="btn btn-secondary check">
                     Válasz
                 </button>
             </div>
-            <div class="col-6 text-center">
+            <div class="col-6 text-center next">
                 <button class="btn btn-secondary">
                     Következő
                 </button>
