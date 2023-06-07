@@ -1,29 +1,35 @@
-body{
-    background-color: #27374D;
-    color: #DDE6ED;
+body {
+  background-color: #27374D;
+  color: #DDE6ED;
 }
-h2{
+
+h2 {
   text-align: center;
   letter-spacing: 2px;
 }
-p{
+
+p {
   font-size: large;
   text-align: justify;
   font-family: 'Times New Roman', Times, serif;
 }
-hr{
+
+hr {
   width: 70%;
   border: 3px solid #DDE6ED;
   border-radius: 3px;
 }
-li{
-    font-size: large;
-    text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
+
+li {
+  font-size: large;
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
 }
-.fooldalkep{
+
+.fooldalkep {
   box-shadow: 10px 10px 7px black;
 }
-.navbar{
+
+.navbar {
   background-color: #9DB2BF;
 }

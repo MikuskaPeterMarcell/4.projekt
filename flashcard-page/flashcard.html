@@ -22,44 +22,37 @@
                 <a class="nav-link active" aria-current="page" href="../Index.html">Főoldal</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./flashcard-page/flashcard.html">Kvíz</a>
+                <a class="nav-link" href="../flashcard-page/flashcard.html">Kvíz</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../kerdesbank.txt" download="Kérdésbank">Kérdésbank</a>
               </li>
             </ul>
           </div>
         </div>
     </nav>
-    <header class="container-fluid">
-        
-            <h1 class="text-center">
-                Flashcard
-            </h1>
-        
-    </header>
-
     <div class="container jatek">
 
-        <div class="row" id="szov">
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et ante eget nulla iaculis vestibulum. Duis nec vulputate lorem. Proin </p>
+        <div class="row mb-5 p-2 mt-2 align-items-center szov side-1">
+            <p class="text-center vastag" id="side-0-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et ante eget nulla iaculis vestibulum. Duis nec vulputate lorem. Proin </p>
         </div>
-        <div class="row" id="gombs">
-            <button id="gomb1">Válasz mutatása / Következő kérdés</button>
-        </div>
-    </div>
-    
-    <div class="container-fluid">
-        <div class="row" id="gombok">
-            <div class="col-6" id="gombbal">
-                <button>
-                    Kérdésbank
+        <div class="row mb-5 p-2 mt-2 align-items-center szov side-2 d-none">
+          <p class="text-center vastag" id="side-1-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et ante eget nulla iaculis vestibulum. Duis nec vulputate lorem. Proin </p>
+      </div>
+        <div class="row mt-5 pb-4">
+            <div class="col-6 text-center">
+                <button class="btn btn-secondary">
+                    Válasz
                 </button>
             </div>
+            <div class="col-6 text-center">
+                <button class="btn btn-secondary">
+                    Következő
+                </button>
+            </div>
+        </div>
+    </div>
 
-            <div class="col-6" id="gombjobb">
-                <button>
-                    Vissza a főoldalra
-                </button>
-            </div>
-        </div>
-    </div>
+  <script src="flashcard.js"></script>
 </body>
 </html>
